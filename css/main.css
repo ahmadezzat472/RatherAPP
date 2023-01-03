@@ -1224,9 +1224,9 @@ header nav .icon{
 }
 
 .sec11 .container .card:hover .hide {
-    display: block;
     width: 95px;
     height: 2px;
+    margin: 25px 0;
 }
 
 .sec11 .container .card i{
@@ -1235,9 +1235,8 @@ header nav .icon{
 }
 
 .sec11 .container .card .hide{
-    display: none;
-    width: 40px;
-    height: 2px;
+    width: 0px;
+    height: 0px;
     background: var(--maincolor);
     margin-top: 35px;
     transition: 0.5s;
